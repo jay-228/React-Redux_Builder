@@ -1,4 +1,3 @@
-import React from 'react';
 import CounterValue from './CounterValue';
 import CounterButtons from './CounterButtons';
 import Theme from './Theme';
