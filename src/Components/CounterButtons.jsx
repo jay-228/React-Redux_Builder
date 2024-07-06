@@ -1,8 +1,8 @@
+
 import React from 'react';
 import { useDispatch } from 'react-redux';
 import Button from 'react-bootstrap/Button';
-import { increment,decrement } from '../Store/action';
-
+import { increment, decrement } from '../Store/action';
 
 const CounterButtons = () => {
     const dispatch = useDispatch();
@@ -16,10 +16,9 @@ const CounterButtons = () => {
     };
 
     return (
-        <div>
-           
-            <Button onClick={handleAdd} variant="success">ADD</Button>{' '} &nbsp;&nbsp;&nbsp;
-            <Button  onClick={handleReduce} variant="danger">REDUCE</Button>
+        <div className="counter-buttons">
+            <Button onClick={handleAdd} className="btn-success">ADD</Button>
+            <Button onClick={handleReduce} className="btn-danger">REDUCE</Button>
         </div>
     );
 };

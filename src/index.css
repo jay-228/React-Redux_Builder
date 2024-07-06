@@ -10,8 +10,10 @@ body {
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
-  background-image: linear-gradient(to right, #b8cbb8 0%, #b8cbb8 0%, #b465da 0%, #cf6cc9 33%, #ee609c 66%, #ee609c 100%);
+  background-color: #fff3cd;
 }
+
+
 
 h1 {
   font-size: 3.2em;
