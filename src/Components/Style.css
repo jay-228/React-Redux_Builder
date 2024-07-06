@@ -1,0 +1,20 @@
+/* src/components/styles.css */
+
+
+.light_theme {
+  color: black;
+  background-color: white;
+  width: 100%;
+  margin: 45px 0px;
+  padding: 150px 0px;
+  font-size: 45px;
+}
+
+.dark_theme {
+  color: white;
+  background-color: black;
+  width: 100%;
+  margin: 45px 0px;
+  padding: 150px 0px;
+  font-size: 40px;
+}
